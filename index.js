@@ -45,7 +45,7 @@ document.getElementById("submitbtn").onclick = function(){
             gpa = gpa + ((Math.ceil((marks_list[i]+0.01)/10)*credits_list[i]))
         }
         else if(marks_list[i]>=40 & marks_list[i]<50){
-            gpa = gpa + (((marks_list[i]+0.01)/10)*credits_list[i])
+            gpa = gpa + ((Math.round(marks_list[i]+0.01)/10)*credits_list[i])
         }
         else{
             gpa = gpa + 0
