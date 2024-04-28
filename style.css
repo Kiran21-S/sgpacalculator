@@ -12,14 +12,14 @@ body{
 }
 
 table,th, td{
-    font-size: 4vw;
+    font-size: 3vw;
     border: 0 solid #6eebc85b;
     width: 10%;
     padding: 1%;
 }
 
 input{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .subjects{
     width:30%;
