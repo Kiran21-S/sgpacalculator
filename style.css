@@ -12,14 +12,14 @@ body{
 }
 
 table,th, td{
-    font-size: 2dvw;
+    font-size: 4vw;
     border: 0 solid #6eebc85b;
     width: 10%;
     padding: 1%;
 }
 
 input{
-    font-size: 2dvw;
+    font-size: 4vw;
 }
 .subjects{
     width:30%;
@@ -46,6 +46,7 @@ input{
     border-top-right-radius: 100% 200%;
     overflow: hidden;
     font-size: 3vw;
+    text-align: center;
 }
 .result_fill{
     position: absolute;
