@@ -19,7 +19,7 @@ table,th, td{
 }
 
 input{
-    font-size: 3vw;
+    font-size: 2vw;
 }
 .subjects{
     width:30%;
@@ -45,7 +45,7 @@ input{
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
     overflow: hidden;
-    font-size: 3vw;
+    font-size: 4vw;
     text-align: center;
 }
 .result_fill{
