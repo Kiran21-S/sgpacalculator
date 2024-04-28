@@ -12,7 +12,7 @@ body{
 }
 
 table,th, td{
-    font-size: 3vw;
+    font-size: 2.5vw;
     border: 0 solid #6eebc85b;
     width: 10%;
     padding: 1%;
@@ -45,7 +45,7 @@ input{
     border-top-left-radius: 100% 200%;
     border-top-right-radius: 100% 200%;
     overflow: hidden;
-    font-size: 4vw;
+    font-size: 160%;
     text-align: center;
 }
 .result_fill{
