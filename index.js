@@ -23,12 +23,12 @@ document.getElementById("submitbtn").onclick = function(){
     subject_7 = parseInt(document.getElementById("mark_7").value)
     credit_7 = document.querySelector('input[name="c7"]:checked').value
 
-    subject_8 = parseInt(document.getElementById("mark_8").value)
-    credit_8 = document.querySelector('input[name="c8"]:checked').value
+    // subject_8 = parseInt(document.getElementById("mark_8").value)
+    // credit_8 = document.querySelector('input[name="c8"]:checked').value
 
 
-    marks_list = [subject_1, subject_2, subject_3, subject_4, subject_5, subject_6, subject_7, subject_8]
-    credits_list = [credit_1, credit_2, credit_3, credit_4, credit_5, credit_6, credit_7,credit_8]
+    marks_list = [subject_1, subject_2, subject_3, subject_4, subject_5, subject_6, subject_7]
+    credits_list = [credit_1, credit_2, credit_3, credit_4, credit_5, credit_6, credit_7]
     console.log(marks_list)
     console.log(credits_list)
     let gpa = 0;
@@ -37,7 +37,7 @@ document.getElementById("submitbtn").onclick = function(){
         cp=cp+parseInt(ele)
     });
     console.log(cp)
-    for(i=0;i<9;i=i+1){
+    for(i=0;i<8;i=i+1){
         if(marks_list[i]==100){
             gpa=gpa + (10*credits_list[i])
         }
